@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import type { Locator, Page } from '@playwright/test';
-import { login as seedLogin } from '__UTILS_LOGIN_PATH__';
+import { login as seedLogin } from '../../utils/login';
 
 test.setTimeout(120000);
 
